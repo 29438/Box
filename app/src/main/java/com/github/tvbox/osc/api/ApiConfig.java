@@ -131,7 +131,7 @@ public class ApiConfig {
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
         // Embedded Source : Update in Strings.xml if required
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://framagit.org/Asta/tv/raw/main/vip.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://box.cpddd.tk/tv.json");
         if (apiUrl.isEmpty()) {
             callback.error("源地址为空");
             return;
